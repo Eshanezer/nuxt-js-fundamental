@@ -1,13 +1,15 @@
 <template>
     <div>
-<p>Product Id {{ id }}</p>
+        <p>Product Id {{ id }}</p>
     </div>
 </template>
 
 <script setup>
-const {id} = useRoute().params;
+const { id } = useRoute().params;
+
+definePageMeta({
+    layout: 'products'
+});
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
