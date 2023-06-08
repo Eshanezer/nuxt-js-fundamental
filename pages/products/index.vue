@@ -10,6 +10,12 @@
     definePageMeta({
         layout: 'products'
     });
+    useHead({
+    title: 'Nuxt Dojo | Merch',
+    meta: [
+      { name: 'description', content: 'Nuxt 3 Merch'}
+    ]
+  })
 
     // getting data form API using fetch
    const { data : products} =await useFetch('https://fakestoreapi.com/products')
