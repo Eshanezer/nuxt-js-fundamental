@@ -1,7 +1,24 @@
 <template>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <nuxt-link to="/">Nuxt JS</nuxt-link>
+                </li>
+                <li>
+                    <nuxt-link to="/about">About</nuxt-link>
+                </li>
+                <li>
+                    <nuxt-link to="/products">Products</nuxt-link>
+                </li>
+                <li>
+                    <a href="/products">Normal A tag</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div>
-        <h2>Home</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus atque nulla saepe temporibus dolorem nisi deserunt tenetur quod? Corrupti!</p>
+        <h2>Welcome to Nuxt JS</h2>
     </div>
 </template>
 
