@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h2>Home</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus atque nulla saepe temporibus dolorem nisi deserunt tenetur quod? Corrupti!</p>
+        <h2>Welcome to Nuxt JS</h2>
     </div>
 </template>
 
